@@ -3,7 +3,7 @@ import style from "./Styles.module.css";
 import { Link } from "react-router-dom";
 
 export default function Card(props) {
-    // acá va tu código
+
     return (
         <div className={style.cardBox}>
             <button className={style.cardButton} onClick={props.onClose}>

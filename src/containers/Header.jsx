@@ -10,9 +10,11 @@ export default function Header(props) {
             </p>
             <img
                 className={style.headerImage}
-                src={`https://fondosmil.com/fondo/33595.jpg`}
-                alt="sunset"
+                src={`https://media.istockphoto.com/id/533236170/es/foto/maresias.jpg?s=612x612&w=0&k=20&c=u69FJlOyd8pbkftF1cpd2LYyTJMznkSyBz16Sb66WK0=`}
+                 alt="sunset"
             />
+           
+                      
         </div>
     );
 }

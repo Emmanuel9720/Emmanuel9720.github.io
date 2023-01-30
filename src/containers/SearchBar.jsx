@@ -3,7 +3,7 @@ import style from "./Styles.module.css";
 
 export default function SearchBar(props) {
     const [city, setCity] = useState("");
-    // acá va tu código
+   
     return (
         <form
             className={style.searchBar}

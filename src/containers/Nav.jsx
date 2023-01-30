@@ -6,8 +6,18 @@ import About from "./About.jsx";
 
 function Nav(props) {
     return (
+    
         <nav className={style.navBar}>
-            <div className={style.navBarLogo}>LOGO</div>
+            <li>
+                    <a target="_blank" href="https://github.com/Emmanuel9720">
+                        <img
+                            className={style.githubLogo}
+                            src="https://pngimg.com/uploads/github/github_PNG58.png"
+                            alt="github logo"
+                        />
+                    </a>
+                </li>
+            <div className={style.navBarLogo}></div>
             <SearchBar onSearch={props.onSearch} />
             <ul className={style.navMenu}>
                 <Link className={style.navItem} to="/">
@@ -16,12 +26,10 @@ function Nav(props) {
                 <Link className={style.navItem} to="/weatherSection">
                     Weather Section
                 </Link>
-                <Link className={style.navItem} to="/About">
+                <Link className={style.navItem} to="/about">
                     About
                 </Link>
-                {/* <Link className={style.navItem} to="/footer">
-                    Footer
-    </Link> */}
+                
             </ul>
         </nav>
     );

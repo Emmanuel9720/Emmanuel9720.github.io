@@ -17,6 +17,7 @@ export default function Ciudad({ city }) {
                     </div>
                 </div>
             </div>
+            
         );
     } else {
         return <div className={style.alternativeText}>City not found</div>;
